@@ -1,13 +1,13 @@
 # set-startup-project-vs
-# H1 Overview
+##### H4 Overview
 
 A python script to automate 'set as startup project' option in Visual Studio IDE before building the project.
 
-# H1 Description :
+##### H4 Description :
 
 This code piece is for all those developers who are tired of first build failed problem in Visual studio. Particularly, if visual studio project files are built using cmake, it automatically sets the ALL BUILD project as start up project and subsequently first build fails. This is undesirable since it would force developers to open the IDE and manually set startup project. So, this python script may come handy on such ocassions. Also, this script can be used in conjunction with windows build utilitied like msbuild or devenv to check build success or failure without having to manually update the start up project option in IDE.
 
-# H1 Usage : 
+##### H4 Usage : 
 
 Install python on your Windows machine. Open command prompt in directory where this script is placed. Issue the following command in given format
 
